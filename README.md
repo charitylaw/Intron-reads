@@ -1,26 +1,27 @@
 # Supplementary Figures
 
-*Supplementary figure 1* : RNA protocols are compared for gene-level exon log-CPM (left) and gene-level intron log-CPM values (right) for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
+**Supplementary figure 1** : RNA protocols are compared for gene-level exon log-CPM (left) and gene-level intron log-CPM values (right) for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
 
-*Supplementary figure 2* : From left to right, intron versus exon log-CPM, intron versus exon log-RPKM, intron log-RPKM versus total intron length, relative coverage between exon and intron regions versus total intron length, and relative coverage versus exon log-RPKM; with poly(A) RNA (top row) and Total RNA libraries (bottom row). The plots are displayed for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
+**Supplementary figure 2** : From left to right, intron versus exon log-CPM, intron versus exon log-RPKM, intron log-RPKM versus total intron length, relative coverage between exon and intron regions versus total intron length, and relative coverage versus exon log-RPKM; with poly(A) RNA (top row) and Total RNA libraries (bottom row). The plots are displayed for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
 
 
 
 # Scripts for Annotations
 
-*gtf_to_exon_saf.R* : Convert gtf file to simplified exon locations and save in saf format (also saves GENCODE gene information to txt).
+**gtf_to_exon_saf.R** : Convert gtf file to simplified exon locations and save in saf format (also saves GENCODE gene information to txt).
 
-*exon_saf_to_genebody_and_intron_saf.R* : Exon saf file is used to create genebody saf and intron saf files.
+**exon_saf_to_genebody_and_intron_saf.R** : Exon saf file is used to create genebody saf and intron saf files.
 
-*genebody_saf_to_nonoverlapping_genebody_saf.R* : Create genebody saf file for non-overlapping genes.
+**genebody_saf_to_nonoverlapping_genebody_saf.R** : Create genebody saf file for non-overlapping genes.
 
 
 
 # Scripts for Analyses
 
-## Exploring intron reads
+### Exploring intron reads
 
 **analysis_of_intron_exploration.R** : Main data analysis file that explores basic characteristics of intron reads.
+
 The analysis requires:
 -    Annotation files (exon saf and genebody saf)
  -   Bam files
@@ -33,7 +34,7 @@ The analysis includes:
    - Calculating percentage of reads with exon signal and intron signal
    - Calculating correlations for exon and intron log-counts
 
-## Coverage patterns
+### Coverage patterns
 
 **analysis_of_coverage_for_HCC827.R** : Binned coverage analysis for HCC827 human cell line libraries.
 
@@ -41,8 +42,9 @@ The analysis requires:
    - Output from main data analysis
    - Annotation files (exon saf, intron saf, and non-overlapping genes saf)
    - GENCODE gene information
-   - Function to create binned annotation: **FUN_create_binned_annotation.R*
+   - Function to create binned annotation: **FUN_create_binned_annotation.R**
    - Function to plot coverage profiles: **FUN_plot_coverage_profile.R**
+   
 The analysis includes:
    - Selecting a subset of genes to analyse (protein coding and non-overlapping genes in reference chromosomes)
    - Creating binned annotation for exons and introns
