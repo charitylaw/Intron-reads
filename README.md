@@ -56,16 +56,16 @@ The analysis includes:
    - Creating coverage profile plots for genes in Rasko paper
    
    
-## IRFinder_analysis
+### IRFinder analysis
+
+Scripts in "IRFinder_analysis" folder.
 
 **IR_detection.txt** : IR detection
 
-### Audic and Claverie method
+**AC_differential_IR_analysis.txt** : Audic and Claverie method for differential IR analysis
 
-**AC_differential_IR_analysis.txt** : Differential analysis
+**GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
 
-### GLM method
+**filePaths.txt** : File paths used in GLM analysis
 
-**GLM_differential_IR_analysis.R** : Differential analysis
-**filePaths.txt** : File paths used in analysis
-**experiment.txt** : Experiment information used in analysis
+**experiment.txt** : Experiment information used in GLM analysis
