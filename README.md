@@ -54,3 +54,18 @@ The analysis includes:
    - Creating coverage profile plots for two short and two long genes
    - Creating coverage profile plots of intron retention-like genes
    - Creating coverage profile plots for genes in Rasko paper
+   
+   
+## IRFinder_analysis
+
+**IR_detection.txt** : IR detection
+
+## Audic and Claverie method
+
+**AC_differential_IR_analysis.txt** : Differential analysis
+
+## GLM method
+
+**GLM_differential_IR_analysis.R** : Differential analysis
+**filePaths.txt** : File paths used in analysis
+**experiment.txt** : Experiment information used in analysis
