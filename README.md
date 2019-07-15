@@ -60,11 +60,11 @@ The analysis includes:
 
 **IR_detection.txt** : IR detection
 
-## Audic and Claverie method
+### Audic and Claverie method
 
 **AC_differential_IR_analysis.txt** : Differential analysis
 
-## GLM method
+### GLM method
 
 **GLM_differential_IR_analysis.R** : Differential analysis
 **filePaths.txt** : File paths used in analysis
