@@ -33,6 +33,13 @@ The analysis includes:
   -  Creating MDS plots for exon and intron counts
    - Calculating percentage of reads with exon signal and intron signal
    - Calculating correlations for exon and intron log-counts
+   
+
+
+### Characteristics of counts for celllines
+**analysis_of_characteristics_of_counts_for_celllines.R** : Scatter plots for characteristics between and within libraries in cellline data.
+
+
 
 ### Coverage patterns
 
