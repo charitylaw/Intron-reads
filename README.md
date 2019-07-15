@@ -60,12 +60,8 @@ The analysis includes:
 
 Scripts in "IRFinder_analysis" folder.
 
-**IR_detection.txt** : IR detection
-
-**AC_differential_IR_analysis.txt** : Audic and Claverie method for differential IR analysis
-
-**GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
-
-**filePaths.txt** : File paths used in GLM analysis
-
-**experiment.txt** : Experiment information used in GLM analysis
+- **IR_detection.txt** : IR detection
+- **AC_differential_IR_analysis.txt** : Audic and Claverie method for differential IR analysis
+- **GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
+- **filePaths.txt** : File paths used in GLM analysis
+- **experiment.txt** : Experiment information used in GLM analysis
