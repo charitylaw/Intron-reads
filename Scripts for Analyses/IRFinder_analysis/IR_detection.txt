@@ -1,0 +1,29 @@
+# On Terminal
+# 1 Aug 2018 (Last updated 15 July 2019)
+# Charity Law 
+# IRFinder IR detection for Human cellline samples (local paths removed)
+
+# Set up
+mkdir IR_detection
+
+# IR detection using fastq files
+# 2 cellines, 2 library preps, 3 reps each
+mkdir IR_detection/HCC827_PolyA
+bin/IRFinder -r REF/Human-hg38-release81 -s LoadAndKeep -d IR_detection/HCC827_PolyA/R1 \
+HCC827_R1_PolyA.fastq.gz
+bin/IRFinder -r REF/Human-hg38-release81 -s LoadAndKeep -d IR_detection/HCC827_PolyA/R2 \
+HCC827_R2_PolyA.fastq.gz
+bin/IRFinder -r REF/Human-hg38-release81 -s LoadAndKeep -d IR_detection/HCC827_PolyA/R3 \
+HCC827_R3_PolyA.fastq.gz
+
+mkdir IR_detection/NCI-H1975_PolyA
+bin/IRFinder -r REF/Human-hg38-release81 -s LoadAndKeep -d IR_detection/NCI-H1975_PolyA/R1 \
+NCI-H1975_R1_PolyA.fastq.gz
+bin/IRFinder -r REF/Human-hg38-release81 -s LoadAndKeep -d IR_detection/NCI-H1975_PolyA/R2 \
+NCI-H1975_R2_PolyA.fastq.gz
+bin/IRFinder -r REF/Human-hg38-release81 -s LoadAndKeep -d IR_detection/NCI-H1975_PolyA/R3 \
+NCI-H1975_R3_PolyA.fastq.gz
+
+# Pool replicates from each group
+bin/IRFinder -m BAM -d IR_detection/HCC827_PolyA/Pooled -r REF/Human-hg38-release81  <(samtools cat IR_detection/HCC827_PolyA/R1/Unsorted.bam IR_detection/HCC827_PolyA/R2/Unsorted.bam IR_detection/HCC827_PolyA/R3/Unsorted.bam)
+bin/IRFinder -m BAM -d IR_detection/NCI-H1975_PolyA/Pooled -r REF/Human-hg38-release81  <(samtools cat IR_detection/NCI-H1975_PolyA/R1/Unsorted.bam IR_detection/NCI-H1975_PolyA/R2/Unsorted.bam IR_detection/NCI-H1975_PolyA/R3/Unsorted.bam)

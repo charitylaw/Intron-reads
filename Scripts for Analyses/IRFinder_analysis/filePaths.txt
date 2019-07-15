@@ -1,0 +1,7 @@
+IR_detection/HCC827_PolyA/R1/IRFinder-IR-nondir.txt
+IR_detection/HCC827_PolyA/R2/IRFinder-IR-nondir.txt
+IR_detection/HCC827_PolyA/R3/IRFinder-IR-nondir.txt
+IR_detection/NCI-H1975_PolyA/R1/IRFinder-IR-nondir.txt
+IR_detection/NCI-H1975_PolyA/R2/IRFinder-IR-nondir.txt
+IR_detection/NCI-H1975_PolyA/R3/IRFinder-IR-nondir.txt
+

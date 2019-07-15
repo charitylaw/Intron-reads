@@ -1,0 +1,11 @@
+# On Terminal
+# 1 Aug 2018 (Last updated 15 July 2019)
+# Charity Law 
+# Differential IR analysis using Audic and Claverie test for small number of replicates (local paths removed)
+
+# "Audic and Claverie test for small replicates" on pooled results
+# Manual says this test is fine no more than 3 replicates
+bin/analysisWithLowReplicates.pl \
+-A IR_detection/HCC827_PolyA/Pooled/IRFinder-IR-nondir.txt IR_detection/HCC827_PolyA/R1/IRFinder-IR-nondir.txt IR_detection/HCC827_PolyA/R2/IRFinder-IR-nondir.txt IR_detection/HCC827_PolyA/R3/IRFinder-IR-nondir.txt \
+-B IR_detection/NCI-H1975_PolyA/Pooled/IRFinder-IR-nondir.txt IR_detection/NCI-H1975_PolyA/R1/IRFinder-IR-nondir.txt IR_detection/NCI-H1975_PolyA/R2/IRFinder-IR-nondir.txt IR_detection/NCI-H1975_PolyA/R3/IRFinder-IR-nondir.txt \
+> test_Audic_and_Claverie/HCC827_PolyA-vs-NCI-H1975_PolyA.tab
