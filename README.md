@@ -72,3 +72,15 @@ Scripts in "IRFinder_analysis" folder.
 - **GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
 - **filePaths.txt** : File paths used in GLM analysis
 - **experiment.txt** : Experiment information used in GLM analysis
+
+### index analysis
+
+**index_analyses.R** : index analysis of human cell line and immune cells libraries
+
+The analysis requires:
+   - DGE objects for introns, exons and genebody for cell lines and immune cells
+
+The analysis includes:
+   - Creating barplot for index categories
+   - Creating scatter plots for t-statistics and logFC comparisons between introns and exons
+   - Creating boxplot distribution of intron lengths for each index category
