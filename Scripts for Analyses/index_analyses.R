@@ -1,4 +1,4 @@
-library(INdEX)
+library(index)
 library(magrittr)
 library(stringr)
 
@@ -30,7 +30,7 @@ plot_index_barplot <- function(index_output) {
         cex.axis = 1,
         cex.lab = 1,
         las = 2,
-        main = "INdEX Categories"
+        main = "index Categories"
     )
 }
 
