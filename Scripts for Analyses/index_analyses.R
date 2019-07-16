@@ -27,6 +27,8 @@ plot_index_barplot <- function(index_output) {
     barplot(
         category_counts,
         col = bar_col,
+        cex.axis = 1,
+        cex.lab = 1,
         las = 2,
         main = "INdEX Categories"
     )
@@ -58,6 +60,8 @@ plot_index_tstat <- function(index_output) {
         index_output$tops$intron$t,
         index_output$tops$exon$t,
         pch = 20,
+        cex.axis = 1,
+        cex.lab = 1,
         col = point_col,
         main = "t-statistic",
         xlab = "Intron t-statistic",
@@ -92,6 +96,8 @@ plot_index_logfc <- function(index_output) {
         index_output$tops$intron$logFC,
         index_output$tops$exon$logFC,
         pch = 20,
+        cex.axis = 1,
+        cex.lab = 1,
         col = point_col,
         main = "logFC",
         xlab = "Intron logFC",
@@ -137,6 +143,8 @@ plot_index_boxplot <- function(index_output) {
         in_len_split,
         outline = FALSE,
         border = boxplot_cols,
+        cex.axis = 1,
+        cex.lab = 1,
         lwd = 2,
         las = 2,
         yaxt = "n",
@@ -273,25 +281,25 @@ index_cell_line <- local({
 
 # Output plotting ----
 local({
-    pdf("index_figure_4.pdf", height = 10, width = 18)
+    pdf("index_figure_4.pdf", height = 6, width = 11)
     par(mfrow = c(2, 4))
 
     plot_index_barplot(index_cell_line)
-    fig_label("(a)", cex = 2)
+    fig_label("(a)", cex = 1.5)
     plot_index_tstat(index_cell_line)
-    fig_label("(b)", cex = 2)
+    fig_label("(b)", cex = 1.5)
     plot_index_logfc(index_cell_line)
-    fig_label("(c)", cex = 2)
+    fig_label("(c)", cex = 1.5)
     plot_index_boxplot(index_cell_line)
-    fig_label("(d)", cex = 2)
+    fig_label("(d)", cex = 1.5)
     plot_index_barplot(index_immune)
-    fig_label("(e)", cex = 2)
+    fig_label("(e)", cex = 1.5)
     plot_index_tstat(index_immune)
-    fig_label("(f)", cex = 2)
+    fig_label("(f)", cex = 1.5)
     plot_index_logfc(index_immune)
-    fig_label("(g)", cex = 2)
+    fig_label("(g)", cex = 1.5)
     plot_index_boxplot(index_immune)
-    fig_label("(h)", cex = 2)
+    fig_label("(h)", cex = 1.5)
 
     par(mfrow = c(1, 1))
     dev.off()
