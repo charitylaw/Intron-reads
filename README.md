@@ -87,14 +87,17 @@ The analysis includes:
 
 ## superintronic analysis
 
-This a linked folder to files for elucidating coverage profiles for intron retention signal. It also includes cached data to reproduce the analysis (note this requires git-lfs to be installed).
+This is a submodule to [sa-lee/analysis-superintronic](https://github.com/sa-lee/analysis-superintronic) which contains all scripts for elucidating coverage profiles for intron retention signal. It also includes cached data to reproduce the analysis (note this requires git-lfs to be installed).
+
 
 The analysis requires:
+
 	- IRfinder analysis to be run
 	- BAM files to be processed for running coverage
 	- fastq files available if running kallisto and isoformSwitchAnalyzeR
 
 This analysis includes:
+
 	- Creating coverage profiles for all IR methods tested in the paper
 	- Finding IR signal using superintronic for all cellline x kit combintaions
 	- Comparing overlaps between all methods
