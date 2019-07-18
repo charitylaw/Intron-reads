@@ -84,3 +84,19 @@ The analysis includes:
    - Creating barplot for index categories
    - Creating scatter plots for t-statistics and logFC comparisons between introns and exons
    - Creating boxplot distribution of intron lengths for each index category
+
+## superintronic analysis
+
+This a linked folder to files for elucidating coverage profiles for intron retention signal. It also includes cached data to reproduce the analysis (note this requires git-lfs to be installed).
+
+The analysis requires:
+	- IRfinder analysis to be run
+	- BAM files to be processed for running coverage
+	- fastq files available if running kallisto and isoformSwitchAnalyzeR
+
+This analysis includes:
+	- Creating coverage profiles for all IR methods tested in the paper
+	- Finding IR signal using superintronic for all cellline x kit combintaions
+	- Comparing overlaps between all methods
+	- Running isoformSwitchAnalyzeR
+
