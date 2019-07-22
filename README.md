@@ -4,6 +4,17 @@
 
 **Supplementary figure 2** : From left to right, intron versus exon log-CPM, intron versus exon log-RPKM, intron log-RPKM versus total intron length, relative coverage between exon and intron regions versus total intron length, and relative coverage versus exon log-RPKM; with poly(A) RNA (top row) and Total RNA libraries (bottom row). The plots are displayed for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
 
+** Supplmentary Coverage Plots ** :
+These contain results of running our method (superintronic)
+along with IRfinder and IsoformSwitchAnalyzeR on the poly(A) cellline
+mixtures. These are links to coverage profiles in the analysis-superintronic
+directory
+
+1. [*superintronic*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov)
+2. [*IRFinder*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/irfinder-cov) 
+3. [*IsoformSwitchAnalyzeR*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/isa-cov)
+
+
 
 
 # Scripts for Annotations
@@ -43,14 +54,12 @@ The analysis includes:
 
 ### Coverage patterns
 
-**analysis_of_coverage_for_HCC827.R** : Binned coverage analysis for HCC827 human cell line libraries.
+This analysis is performed in [**make_fig3.R**](https://github.com/sa-lee/analysis-superintronic/blob/0a0eca18878ffa62c9b88e951724d3b8925c1054/scripts/make_fig3.R) 
+as part of [superintronic-analysis](https://github.com/sa-lee/analysis-superintronic)
 
 The analysis requires:
-   - Output from main data analysis
-   - Annotation files (exon saf, intron saf, and non-overlapping genes saf)
-   - GENCODE gene information
-   - Function to create binned annotation: **FUN_create_binned_annotation.R**
-   - Function to plot coverage profiles: **FUN_plot_coverage_profile.R**
+   - Coverage GRanges (from scripts/run_coverage.R) 
+   - GENCODE GTF
    
 The analysis includes:
    - Selecting a subset of genes to analyse (protein coding and non-overlapping genes in reference chromosomes)
@@ -59,8 +68,6 @@ The analysis includes:
    - Examining the distribution of exon and intron coverage
    - Examining the coverage along the genebody for exon and intron regions
    - Creating coverage profile plots for two short and two long genes
-   - Creating coverage profile plots of intron retention-like genes
-   - Creating coverage profile plots for genes in Rasko paper
    
    
 ### IRFinder analysis
