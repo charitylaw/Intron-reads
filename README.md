@@ -4,11 +4,10 @@
 
 **Supplementary figure 2** : From left to right, intron versus exon log-CPM, intron versus exon log-RPKM, intron log-RPKM versus total intron length, relative coverage between exon and intron regions versus total intron length, and relative coverage versus exon log-RPKM; with poly(A) RNA (top row) and Total RNA libraries (bottom row). The plots are displayed for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
 
-** Supplmentary Coverage Plots ** :
+**Supplmentary Coverage Plots** :
 These contain results of running our method (superintronic)
-along with IRfinder and IsoformSwitchAnalyzeR on the poly(A) cellline
-mixtures. These are links to coverage profiles in the analysis-superintronic
-directory
+along with IRfinder and IsoformSwitchAnalyzeR on the poly(A) libraries. 
+These are links to directories that contain coverage profiles, which are named by the method and GENCODE gene id.
 
 1. [*superintronic*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov)
 2. [*IRFinder*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/irfinder-cov) 
