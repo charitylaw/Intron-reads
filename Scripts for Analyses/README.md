@@ -1,41 +1,3 @@
-# Supplementary Figures
-
-**Supplementary figure 1** : RNA protocols are compared for gene-level exon log-CPM (left) and gene-level intron log-CPM values (right) for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
-
-**Supplementary figure 2** : From left to right, intron versus exon log-CPM, intron versus exon log-RPKM, intron log-RPKM versus total intron length, relative coverage between exon and intron regions versus total intron length, and relative coverage versus exon log-RPKM; with poly(A) RNA (top row) and Total RNA libraries (bottom row). The plots are displayed for human cell line HCC827 R1, R2, R3, human cell line NCI-H11975 R1, R2, and R3 (in order of plots shown).
-
-**Supplementary figure 3**: Scatterplot matrix of summary values from running superintronic on the polyA HCC827 cellline. We have show the exon mean (exon_mn) the intron standard deviation (intron_sd) and number of intron bases. More details can be found in the [superintronic vignette](http://htmlpreview.github.io/?https://github.com/sa-lee/analysis-superintronic/blob/master/Rmd/01-superintronic.html)
-
-**Supplementary figure 4**: UpSet plot showing overlap between superintronic and other intron retention methods. More details can be found in the [overlaps vignette](http://htmlpreview.github.io/?https://github.com/sa-lee/analysis-superintronic/blob/master/Rmd/03-overlaps.html)
-
-**Supplementary figure 5**: UpSet plot showing overlap between superintronic and INdEX. More details can be found in the [overlaps vignette](http://htmlpreview.github.io/?https://github.com/sa-lee/analysis-superintronic/blob/master/Rmd/03-overlaps.html).
-
-
-
-**Supplmentary Coverage Plots** :
-These contain results of running our method (superintronic)
-along with IRfinder and IsoformSwitchAnalyzeR on the poly(A) libraries. 
-These are links to directories that contain coverage profiles, which are named by the method and GENCODE gene id.
-
-1. [*superintronic*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov)
-2. [*IRFinder*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/irfinder-cov) 
-3. [*IsoformSwitchAnalyzeR*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/isa-cov)
-
-
-
-
-# Scripts for Annotations
-
-**gtf_to_exon_saf.R** : Convert gtf file to simplified exon locations and save in saf format (also saves GENCODE gene information to txt).
-
-**exon_saf_to_genebody_and_intron_saf.R** : Exon saf file is used to create genebody saf and intron saf files.
-
-**genebody_saf_to_nonoverlapping_genebody_saf.R** : Create genebody saf file for non-overlapping genes.
-
-
-
-# Scripts for Analyses
-
 ### Exploring intron reads
 
 **analysis_of_intron_exploration.R** : Main data analysis file that explores basic characteristics of intron reads.
@@ -77,6 +39,7 @@ The analysis includes:
    - Creating coverage profile plots for two short and two long genes
    
    
+   
 ### IRFinder analysis
 
 Scripts in "IRFinder_analysis" folder.
@@ -86,6 +49,8 @@ Scripts in "IRFinder_analysis" folder.
 - **GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
 - **filePaths.txt** : File paths used in GLM analysis
 - **experiment.txt** : Experiment information used in GLM analysis
+
+
 
 ### index analysis
 
@@ -99,10 +64,11 @@ The analysis includes:
    - Creating scatter plots for t-statistics and logFC comparisons between introns and exons
    - Creating boxplot distribution of intron lengths for each index category
 
+
+
 ## superintronic analysis
 
 This is a submodule to [sa-lee/analysis-superintronic](https://github.com/sa-lee/analysis-superintronic) which contains all scripts for elucidating coverage profiles for intron retention signal. It also includes cached data to reproduce the analysis (note this requires git-lfs to be installed).
-
 
 The analysis requires:
 
@@ -116,4 +82,3 @@ This analysis includes:
 - Finding IR signal using superintronic for all cellline x kit combintaions
 - Comparing overlaps between all methods
 - Running isoformSwitchAnalyzeR
-
