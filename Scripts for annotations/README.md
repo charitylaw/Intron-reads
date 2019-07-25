@@ -1,5 +1,3 @@
-# Scripts for Annotations
-
 Steps for processing annotation files:
 
 1. **gtf_to_exon_saf.R** : Convert gtf file to simplified exon locations and save in saf format (also saves GENCODE gene information to txt).
