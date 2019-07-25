@@ -3,7 +3,7 @@
 **analysis_of_intron_exploration.R** : Main data analysis file that explores basic characteristics of intron reads.
 
 The analysis requires:
--    Annotation files (exon saf and genebody saf)
+-    Annotation files (exon saf and genebody saf) from *Scripts for Annotations*
  -   Bam files
   -  Sample information (sample names, groups, single/paired-end reads)
 
@@ -27,7 +27,7 @@ This analysis is performed in [**make_fig3.R**](https://github.com/sa-lee/analys
 as part of [superintronic-analysis](https://github.com/sa-lee/analysis-superintronic)
 
 The analysis requires:
-   - Coverage GRanges (from scripts/run_coverage.R) 
+   - Coverage GRanges (from *scripts/run_coverage.R*) 
    - GENCODE GTF
    
 The analysis includes:
@@ -45,7 +45,7 @@ The analysis includes:
 **index_analyses.R** : index analysis of human cell line and immune cells libraries
 
 The analysis requires:
-   - DGE objects for introns, exons and genebody for cell lines and immune cells
+   - DGE objects for introns, exons and genebody counts for cell lines and immune cells
 
 The analysis includes:
    - Creating barplot for index categories
@@ -60,14 +60,14 @@ This is a submodule to [sa-lee/analysis-superintronic](https://github.com/sa-lee
 
 The analysis requires:
 
-- IRFinder analysis to be run
+- IRFinder analysis to be run (see below)
 - BAM files to be processed for running coverage
 - fastq files available if running kallisto and isoformSwitchAnalyzeR
 
 This analysis includes:
 
 - Creating coverage profiles for all IR methods tested in the paper
-- Finding IR signal using superintronic for all cellline x kit combintaions
+- Finding IR signal using superintronic for all cell line x kit (RNA library protocol) combinations
 - Comparing overlaps between all methods
 - Running isoformSwitchAnalyzeR
 
@@ -82,9 +82,3 @@ Scripts in "IRFinder_analysis" folder.
 - **GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
 - **filePaths.txt** : File paths used in GLM analysis
 - **experiment.txt** : Experiment information used in GLM analysis
-
-
-
-
-
-
