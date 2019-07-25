@@ -40,18 +40,6 @@ The analysis includes:
    
    
    
-### IRFinder analysis
-
-Scripts in "IRFinder_analysis" folder.
-
-- **IR_detection.txt** : IR detection
-- **AC_differential_IR_analysis.txt** : Audic and Claverie method for differential IR analysis
-- **GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
-- **filePaths.txt** : File paths used in GLM analysis
-- **experiment.txt** : Experiment information used in GLM analysis
-
-
-
 ### index analysis
 
 **index_analyses.R** : index analysis of human cell line and immune cells libraries
@@ -66,13 +54,13 @@ The analysis includes:
 
 
 
-## superintronic analysis
+### superintronic analysis
 
 This is a submodule to [sa-lee/analysis-superintronic](https://github.com/sa-lee/analysis-superintronic) which contains all scripts for elucidating coverage profiles for intron retention signal. It also includes cached data to reproduce the analysis (note this requires git-lfs to be installed).
 
 The analysis requires:
 
-- IRfinder analysis to be run
+- IRFinder analysis to be run
 - BAM files to be processed for running coverage
 - fastq files available if running kallisto and isoformSwitchAnalyzeR
 
@@ -82,3 +70,21 @@ This analysis includes:
 - Finding IR signal using superintronic for all cellline x kit combintaions
 - Comparing overlaps between all methods
 - Running isoformSwitchAnalyzeR
+
+
+
+### IRFinder analysis
+
+Scripts in "IRFinder_analysis" folder.
+
+- **IR_detection.txt** : IR detection
+- **AC_differential_IR_analysis.txt** : Audic and Claverie method for differential IR analysis
+- **GLM_differential_IR_analysis.R** : GLM method for differential IR analysis
+- **filePaths.txt** : File paths used in GLM analysis
+- **experiment.txt** : Experiment information used in GLM analysis
+
+
+
+
+
+
