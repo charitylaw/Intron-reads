@@ -8,6 +8,9 @@
 
 **Sup Fig 4 - Superintronic summary values.png**: Scatterplot matrix of summary values from running superintronic on the poly(A) RNA HCC827 cell line, with associated density plots for exon mean (exon_mn), intron mean (intron_mn), intron standard deviation (intron_sd) and number of intron bases above the threshold. More details can be found in the [superintronic vignette](http://htmlpreview.github.io/?https://github.com/sa-lee/analysis-superintronic/blob/master/Rmd/01-superintronic.html)
 
+**Sup Fig 5 - Example DIR genes from IRF and ISA.pdf** Example genes with differentially retained introns between poly(A) RNA human cell lines as detected by IRFinder and IsoformSwitchAnalyzeR, visualised as coverage plots facetted by cellline (a) HNRNPL detected by IRFinder GLM test (b) NBEAL2 detected by IRFinder Audic and Claverie test and (c) HLA-B detected by IsoformSwitchAnalyzeR DEXSeq test. Coverage is orientated from 5' to 3', with exon regions colored green and intron regions colored orange.
+
+<!--
 **Overlap in intron retention methods.png**: UpSet plot showing overlap between superintronic and other intron retention methods. More details can be found in the [overlaps vignette](http://htmlpreview.github.io/?https://github.com/sa-lee/analysis-superintronic/blob/master/Rmd/03-overlaps.html)
 
 **Overlap in novel methods.png**: UpSet plot showing overlap between superintronic and index. More details can be found in the [overlaps vignette](http://htmlpreview.github.io/?https://github.com/sa-lee/analysis-superintronic/blob/master/Rmd/03-overlaps.html).
@@ -17,3 +20,4 @@
 1. [*superintronic*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov)
 2. [*IRFinder*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/irfinder-cov) 
 3. [*IsoformSwitchAnalyzeR*](https://github.com/sa-lee/analysis-superintronic/tree/master/img/isa-cov)
+-->
