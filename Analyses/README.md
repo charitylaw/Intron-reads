@@ -71,7 +71,7 @@ This analysis includes:
 - Comparing overlaps between all methods
 - Running isoformSwitchAnalyzeR
 
-Covereage plots for 43 genes selected as IR-like in poly(A) RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov . 
+Coverage plots for 43 genes selected as IR-like in poly(A) RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov .  
 Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_olap-1.png .
 
 
