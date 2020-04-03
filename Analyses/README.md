@@ -70,10 +70,13 @@ This analysis includes:
 - Finding IR signal using superintronic for all cell line x kit (RNA library protocol) combinations
 - Comparing overlaps between all methods
 - Running isoformSwitchAnalyzeR
+- A complete write up for all parts of the analysis https://github.com/sa-lee/analysis-superintronic/tree/master/Rmd
 
-Coverage plots for 43 genes selected as IR-like in poly(A) RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov .  
-Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_olap-1.png .
+Coverage plots for poly(A) RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov .  
+Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/. This also includes overlaps between intron split reads, as well as coverage profiles for index classifications.
 
+Overlap between *index*, *superintronic* and other methods is available at 
+https://github.com/sa-lee/analysis-superintronic/tree/master/img/method_overlaps
 
 ### IRFinder analysis
 
