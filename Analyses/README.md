@@ -53,7 +53,7 @@ The analysis includes:
    - Creating boxplot distribution of intron lengths for each index category
 
 
-For the analysis on human cell lines, coverage profiles of the top intron+ and intron- genes (by absolute t-statistic) have been created using superintronic software. The plots are available at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/top_intron_class_genes .
+For the analysis on human cell lines, coverage profiles of the top intron+ and intron- genes (by absolute t-statistic) have been created using *superintronic* software. The plots are available at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/top_intron_class_genes .
 
 
 
@@ -76,7 +76,8 @@ This analysis includes:
 - A complete write up for all parts of the analysis https://github.com/sa-lee/analysis-superintronic/tree/master/Rmd
 
 Coverage plots for poly(A) RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov .  
-Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/. This also includes overlaps between intron split reads, as well as coverage profiles for index classifications.
+
+Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/img/index_classifications/overlap_index_vs_superintronic.png .
 
 Overlap between *index*, *superintronic* and other methods is available at 
 https://github.com/sa-lee/analysis-superintronic/tree/master/img/method_overlaps
