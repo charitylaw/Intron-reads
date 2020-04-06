@@ -53,6 +53,9 @@ The analysis includes:
    - Creating boxplot distribution of intron lengths for each index category
 
 
+For the analysis on human cell lines, coverage profiles of the top intron+ and intron- genes (by absolute t-statistic) have been created using superintronic software. The plots are available at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/top_intron_class_genes .
+
+
 
 ### superintronic analysis
 
