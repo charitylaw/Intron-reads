@@ -79,6 +79,8 @@ Coverage plots for poly(A) RNA HCC827 cell lines can be found at https://github.
 
 Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/img/index_classifications/overlap_index_vs_superintronic.png .
 
+Overlap between genes with intron split reads of 10 or more (over_ten) with *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/img/index_classifications/overlap_intron_split_reads.png . 
+
 Overlap between *index*, *superintronic* and other methods is available at 
 https://github.com/sa-lee/analysis-superintronic/tree/master/img/method_overlaps
 
