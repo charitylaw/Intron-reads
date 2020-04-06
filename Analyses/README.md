@@ -53,8 +53,7 @@ The analysis includes:
    - Creating boxplot distribution of intron lengths for each index category
 
 
-For the analysis on human cell lines, coverage profiles of the top intron+ and intron- genes (by absolute t-statistic) have been created using *superintronic* software. The plots are available at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/top_intron_class_genes .
-
+For the analysis on human cell lines, coverage profiles of the top intron+ and intron- genes (by absolute t-statistic) have been created using *superintronic* software. The plots are available at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/top_intron_class_genes . An overlap of genes reported as having nonsense mediated decay (NMD) with our results can be found at https://github.com/sa-lee/analysis-superintronic/img/index_classifications/overlap_nmd_vs_index.png . 
 
 
 ### superintronic analysis
