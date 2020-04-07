@@ -23,7 +23,7 @@ The analysis includes:
 
 ### Coverage patterns
 
-This analysis is performed in [**make_fig3.R**](https://github.com/sa-lee/analysis-superintronic/blob/0a0eca18878ffa62c9b88e951724d3b8925c1054/scripts/make_fig3.R) 
+This analysis is performed in [**make_fig3.R**](https://github.com/sa-lee/analysis-superintronic/blob/master/scripts/make_fig3.R) 
 as part of [superintronic-analysis](https://github.com/sa-lee/analysis-superintronic)
 
 The analysis requires:
@@ -53,7 +53,7 @@ The analysis includes:
    - Creating boxplot distribution of intron lengths for each index category
 
 
-For the analysis on human cell lines, coverage profiles of the top intron+ and intron- genes (by absolute t-statistic) have been created using *superintronic* software. The plots are available at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/top_intron_class_genes . An overlap of genes reported as having nonsense mediated decay (NMD) with our results can be found at https://github.com/sa-lee/analysis-superintronic/img/index_classifications/overlap_nmd_vs_index.png . 
+For the analysis on human cell lines, coverage profiles of the top intron+ and intron- genes (by absolute t-statistic) have been created using *superintronic* software. The plots are available at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/top_intron_class_genes . An overlap of genes reported as having nonsense mediated decay (NMD) with our results can be found at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/overlap_nmd_vs_index.png . 
 
 
 ### superintronic analysis
@@ -76,9 +76,9 @@ This analysis includes:
 
 Coverage plots for poly(A) RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/tree/master/img/superintronic-polyA-cov .  
 
-Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/img/index_classifications/overlap_index_vs_superintronic.png .
+Overlap between *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/overlap_index_vs_superintronic.png .
 
-Overlap between genes with intron split reads of 10 or more (over_ten) with *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/img/index_classifications/overlap_intron_split_reads.png . 
+Overlap between genes with intron split reads of 10 or more (over_ten) with *index* and *superintronic* results for Total RNA HCC827 cell lines can be found at https://github.com/sa-lee/analysis-superintronic/blob/master/img/index_classifications/overlap_intron_split_reads.png . 
 
 Overlap between *superintronic* versus *IRFinder* and *IsoformSwitchAnalyzeR* is available at 
 https://github.com/sa-lee/analysis-superintronic/tree/master/img/method_overlaps/overlaps_superintronic_vs_others.png
